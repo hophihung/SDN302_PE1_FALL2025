@@ -284,18 +284,6 @@ export default function CreateBook() {
               </div>
             </form>
           </div>
-
-          <aside className="rounded-2xl bg-slate-900 p-6 text-white">
-            <h2 className="text-lg font-semibold">Quick tips</h2>
-            <ul className="mt-4 space-y-3 text-sm text-slate-200">
-              <li>• Use descriptive titles so you can find books faster.</li>
-              <li>• Add 2–3 tags to group books by topic or mood.</li>
-              <li>
-                • Images can be links or uploads—we keep them alongside your
-                book.
-              </li>
-            </ul>
-          </aside>
         </div>
       </div>
     </div>

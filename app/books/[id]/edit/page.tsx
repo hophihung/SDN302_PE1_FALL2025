@@ -355,22 +355,6 @@ export default function EditBook({ params }: EditBookProps) {
               </div>
             </form>
           </div>
-
-          <aside className="rounded-2xl bg-slate-900 p-6 text-white">
-            <h2 className="text-lg font-semibold">Book at a glance</h2>
-            <ul className="mt-4 space-y-3 text-sm text-slate-200">
-              {bookMeta && (
-                <li>
-                  • Added on {new Date(bookMeta.createdAt).toLocaleDateString()}
-                </li>
-              )}
-              <li>• Keep details concise so you can scan the list quickly.</li>
-              <li>• Use tags to group related reads for easier filtering.</li>
-              <li>
-                • Refresh the cover image to keep your shelf feeling fresh.
-              </li>
-            </ul>
-          </aside>
         </div>
       </div>
     </div>
