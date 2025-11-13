@@ -9,7 +9,10 @@ export async function GET(request: NextRequest) {
     const tag = searchParams.get("tag") || "";
     const sort = searchParams.get("sort") || "asc"; // asc or desc
 
-    const where: any = {};
+    const where: {
+      title?: { contains: string; mode: "insensitive" };
+      tags?: { has: string };
+    } = {};
 
     // Search by title
     if (search) {
